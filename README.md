@@ -5,6 +5,13 @@ The goal is to use the power of zoxide to create tmux sessions in one line and n
 This script's aim is to keep it simple, with as few dependencies as possible, in bash, as it should be.
 No useless packages required, no additional libraries and package managers, just tmux [ and zoxide :) ].
 
+# Features
+
+- Open a tmux session using a zoxide-registered directory
+- Connect to an existing tmux session
+- Can be used inside a tmux session 😀
+- Uses `fzf`'s TUI to select a directory if no argument were given
+
 # Usage
 
 ## Synopsis
