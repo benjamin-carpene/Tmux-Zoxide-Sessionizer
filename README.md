@@ -17,7 +17,7 @@ No useless packages required, no additional libraries and package managers, just
 
 ## Example
 
-`tz` feature-a: Create / connect to a session attached to 'feature-a' directory.
+`tz feature-a`: Create / connect to a session attached to 'feature-a' directory.
 `tz`: Asks for the user to select a directory to create / connect to a session.
 
 # Installation
