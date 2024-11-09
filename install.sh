@@ -9,7 +9,7 @@ if [ -n $HOME ]; then
 
     if [[ "$PATH" != *"$local_bin_dir"* ]]; then
         echo "You may not have $local_bin_dir in your PATH variable, which is necessary for tz."
-        echo "Type \`echo \"PATH=\$PATH:$local_bin_dir\" > $HOME/.bashrc\` in order to add it to your path"
+        echo "Type \`echo 'PATH=\$PATH:$local_bin_dir' >> $HOME/.bashrc\` in order to add it to your path"
     fi
 else
     echo "User has no HOME folder"
